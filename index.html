@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#090909">
+<meta name="description" content="Website resmi Clash Of Clash 97 (COC97), tim Mobile Legends: Bang Bang.">
+<title>COC97 — Clash Of Clash 97</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#home"><span class="logo-mark"><b>C</b><i>97</i></span><span><strong>CLASH OF CLASH</strong><small>97 • ESPORTS</small></span></a>
+  <button class="menu-toggle" id="menuToggle" aria-label="Buka menu">☰</button>
+  <nav id="nav"><a href="#home">HOME</a><a href="#roster">ROSTER</a><a href="#tournaments">TOURNAMENTS</a><a href="#standings">STANDINGS</a><a href="#recruitment">RECRUITMENT</a></nav>
+  <a class="admin-nav" href="#admin">ADMIN <span>↗</span></a>
+</header>
+<main>
+<section class="hero" id="home">
+  <div class="hero-pattern"></div><div class="hero-copy">
+    <p class="eyebrow"><span class="pulse"></span> OFFICIAL MOBILE LEGENDS TEAM</p>
+    <h1>CLASH OF<br><em>CLASH 97</em></h1>
+    <p class="hero-sub">One squad. One mission. No fear.</p>
+    <p class="hero-desc">Bukan hanya tentang kemenangan. Ini tentang chemistry, disiplin, dan perjuangan bersama di Land of Dawn.</p>
+    <div class="hero-buttons"><a class="btn red" href="#roster">EXPLORE ROSTER <span>↘</span></a><a class="btn ghost" href="#recruitment">JOIN COC97</a></div>
+    <div class="hero-metrics"><div><strong>COC<span>97</span></strong><small>OUR IDENTITY</small></div><div><strong>5</strong><small>MAIN ROLES</small></div><div><strong>∞</strong><small>ROOM TO GROW</small></div></div>
+  </div>
+  <div class="hero-art"><div class="fire-ring"></div><div class="crest"><span class="crest-top">⚔</span><strong>COC</strong><b>97</b><small>ESPORTS</small></div><div class="art-label label-one">BUILT TO COMPETE</div><div class="art-label label-two">EST. 2026</div></div>
+  <div class="hero-footer"><span>01 / COMPETE • CONNECT • CONQUER</span><span>SCROLL TO EXPLORE ↓</span></div>
+</section>
+<div class="ticker"><div>CLASH TOGETHER <b>✦</b> FIGHT AS ONE <b>✦</b> COC97 ESPORTS <b>✦</b> CLASH TOGETHER <b>✦</b> FIGHT AS ONE <b>✦</b> COC97 ESPORTS <b>✦</b></div></div>
+
+<section class="section" id="roster">
+  <div class="section-head"><div><p class="eyebrow">THE PLAYERS</p><h2>MEET OUR <em>ROSTER</em></h2></div><p>Five roles. One goal.<br>Kenali para pemain COC97.</p></div>
+  <div class="roster-grid" id="rosterGrid"></div>
+  <p class="hint">Nama pemain di atas masih contoh. Login admin demo di bawah dapat digunakan untuk mengubah data roster pada browser ini.</p>
+</section>
+
+<section class="section dark" id="tournaments">
+  <div class="section-head"><div><p class="eyebrow">THE ROAD TO GLORY</p><h2>TOURNAMENT <em>TRACKER</em></h2></div><p>Catat perjalanan tim dan<br>target kompetisi berikutnya.</p></div>
+  <div class="tournament-grid" id="tournamentGrid"></div>
+  <p class="hint">Data turnamen adalah contoh/template, bukan klaim prestasi resmi.</p>
+</section>
+
+<section class="section standings-section" id="standings">
+  <div class="section-head"><div><p class="eyebrow">KEEP YOUR EYES ON THE TABLE</p><h2>TEAM <em>STANDINGS</em></h2></div><span class="season-tag"><span class="pulse"></span> SEASON 2026</span></div>
+  <div class="table-wrap"><table><thead><tr><th>#</th><th>TEAM</th><th>MATCH</th><th>WIN</th><th>LOSE</th><th>POINTS</th></tr></thead><tbody id="standingsBody"></tbody></table></div>
+  <p class="hint">Klasemen contoh. Perbarui hasil pertandingan melalui admin demo atau edit data di <code>script.js</code>.</p>
+</section>
+
+<section class="section match-section" id="matches">
+  <div class="section-head"><div><p class="eyebrow">NEXT BATTLE</p><h2>UPCOMING <em>MATCHES</em></h2></div></div>
+  <div class="match-list" id="matchList"></div>
+</section>
+
+<section class="recruitment" id="recruitment">
+  <div class="recruitment-art"><div class="big-97">97</div><div class="slash"></div></div>
+  <div class="recruitment-copy"><p class="eyebrow"><span class="pulse"></span> OPEN RECRUITMENT</p><h2>YOUR NEXT<br>CHAPTER <em>STARTS HERE.</em></h2><p>Punya semangat kompetitif, komunikasi yang baik, dan mau berkembang bersama? COC97 membuka kesempatan untuk pemain yang siap berproses.</p>
+  <div class="requirements"><span>✓ TEAMWORK</span><span>✓ DISCIPLINE</span><span>✓ GOOD ATTITUDE</span></div>
+  <a class="btn red" id="applyButton" href="#contact">APPLY NOW <span>↗</span></a><small>Role yang dibutuhkan dan jadwal trial dikonfirmasi admin.</small></div>
+</section>
+
+<section class="section contact" id="contact">
+ <div><p class="eyebrow">LET'S CONNECT</p><h2>LET'S MAKE<br><em>HISTORY.</em></h2><p class="contact-desc">Untuk scrim, kerja sama, atau pendaftaran pemain, hubungi admin COC97.</p></div>
+ <div class="contact-list">
+  <a id="waLink" href="https://wa.me/6280000000000" target="_blank" rel="noopener"><span class="contact-icon">↗</span><span><small>CONTACT ADMIN</small><strong>WhatsApp</strong></span><b>↗</b></a>
+  <a id="igLink" href="https://instagram.com/" target="_blank" rel="noopener"><span class="contact-icon">◎</span><span><small>FOLLOW OUR JOURNEY</small><strong>Instagram</strong></span><b>↗</b></a>
+  <a id="ttLink" href="https://tiktok.com/" target="_blank" rel="noopener"><span class="contact-icon">♪</span><span><small>WATCH OUR CONTENT</small><strong>TikTok</strong></span><b>↗</b></a>
+ </div>
+ <p class="hint full">Ganti nomor WhatsApp dan tautan media sosial pada bagian <code>TEAM_CONFIG</code> di <code>script.js</code>.</p>
+</section>
+
+<section class="section admin-section" id="admin">
+ <div class="section-head"><div><p class="eyebrow">TEAM MANAGEMENT</p><h2>ADMIN <em>CONTROL</em></h2></div><p>Panel demo untuk mengubah roster<br>dan data turnamen di browser ini.</p></div>
+ <div class="admin-box" id="loginBox">
+  <div class="admin-emblem">COC<span>97</span></div><h3>ADMIN LOGIN</h3><p class="admin-muted">Masuk untuk membuka pengaturan demo.</p>
+  <form id="loginForm"><label for="username">Username</label><input id="username" autocomplete="username" required placeholder="Masukkan username"><label for="password">Password</label><input id="password" type="password" autocomplete="current-password" required placeholder="Masukkan password"><button class="btn red full-btn" type="submit">LOGIN <span>↗</span></button><p id="loginMessage" role="status"></p></form>
+  <small class="security-note">Login demo: username <b>admin</b> dan password <b>coc97demo</b>. Jangan gunakan untuk data rahasia atau website produksi.</small>
+ </div>
+ <div class="admin-dashboard hidden" id="adminDashboard">
+  <div class="dashboard-top"><div><p class="eyebrow">WELCOME BACK</p><h3>COC97 MANAGEMENT</h3></div><button class="btn ghost" id="logoutButton">LOG OUT</button></div>
+  <div class="admin-grid">
+   <form id="playerForm" class="admin-card"><h3>EDIT PLAYER</h3><label>Pilih pemain</label><select id="playerSelect"></select><label>Nickname</label><input id="playerNickname" required><label>Role</label><select id="playerRole"><option>EXP LANER</option><option>JUNGLER</option><option>MID LANER</option><option>GOLD LANER</option><option>ROAMER</option><option>SUBSTITUTE</option></select><label>Spesialisasi</label><input id="playerSpecialty" required><button class="btn red full-btn">SAVE PLAYER</button></form>
+   <form id="tournamentForm" class="admin-card"><h3>ADD TOURNAMENT</h3><label>Nama turnamen / target</label><input id="tourName" required placeholder="Nama turnamen"><label>Status</label><select id="tourStatus"><option>UPCOMING</option><option>IN PROGRESS</option><option>COMPLETED</option></select><label>Hasil / catatan</label><input id="tourResult" required placeholder="Contoh: Pendaftaran dibuka"><button class="btn red full-btn">ADD TOURNAMENT</button></form>
+  </div>
+  <p class="admin-notice">Perubahan disimpan di localStorage browser/perangkat ini saja. Perubahan tidak otomatis tersinkron ke pengunjung lain atau tersimpan ke server.</p>
+ </div>
+</section>
+</main>
+<footer><a class="brand" href="#home"><span class="logo-mark"><b>C</b><i>97</i></span><span><strong>CLASH OF CLASH</strong><small>97 • ESPORTS</small></span></a><p>BUILT WITH PASSION. PLAYED WITH PURPOSE.</p><span>© <span id="year"></span> COC97</span></footer>
+<button class="back-top" id="backTop" aria-label="Kembali ke atas">↑</button>
+<script src="script.js"></script>
+</body>
+</html>
